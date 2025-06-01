@@ -1,1 +1,0 @@
-The project expands on this by adding sentiment analysis to the conversation flow. It preprocesses user input, analyzes its sentiment, and logs the interaction.
