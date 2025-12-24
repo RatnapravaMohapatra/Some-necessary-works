@@ -1,0 +1,106 @@
+Pandas Basic operation:
+01: Data pre-processing(Handle missing value)
+02:Data cleaning(Remove duplicate and fix inconsistencies)
+03:Data Transformation(Filter , sort and modify data)
+04:Data visualisation(represent data graphically)
+=================================
+DATA PREPROCESSING:
+Handle missing value and clean raw data for data analysis.
+Before(Table with missing value)
+======
+NAME   Age  Salary
+smruti 20   NAN
+Ratna  Nan  50000
+Frank  30   7000
+=================
+After 
+NAME   Age  Salary
+smruti 20   20000
+Ratna  21   50000
+Frank  30   7000
+(Note : Filled missing values with 0/ average using fillna())
+=================================DATA CLEANING:(remove duplicates and fix column)
+================
+Before data
+NAME   Age  Salary
+smruti 20   20000
+Ratna  21   50000
+smruti  30   7000
+===================
+After 
+=====
+NAME   Age  Salary
+smruti 20   20000
+Ratna  21   50000
+=================================
+DATA TRANSFORMATION(Filter and sort data for brtter insights).
+===========================
+Before
+=========
+product     category     Price
+Laptop      electronic   800
+hoodie       clothing    20
+Smartphone   electronic  500   
+jeans        clothing    40
+=====
+After (Filter and sorting)
+=================================
+KEY NOTE:
+1. Index vs Column (MOST IMPORTANT)
+
+.loc[] and .at[] work only on index labels, not column values.
+===================================================
+In pandas, label-based access (loc, at) works only on index labels, position-based access (iloc, iat) works on row/column numbers; if a value is in a column (like a name), either filter by that column or set it as the index—string matching is case-sensitive.
+
+
+
+
+
+
+
+
+
+
+
+
+============================
+product     category     Price
+Smartphone   electronic  500 
+Laptop       electronic   800
+===============================
+DATA VISUALIZATION(Represent data graphically insights):
+raw data :
+before                 AFTER
+==========          | BAR CHART
+category    price   |
+Electronic  500     |
+Clothing    200     |
+furniture   300     |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
