@@ -1,0 +1,143 @@
+what is a Pandas series
+
+A table with rows and columns
+
+A one-dimensional labeled array ✔️
+
+A list of strings
+
+A chart for plotting--
+
+
+===================================================
+Which NumPy function is often used to create data for a Pandas Series?
+A
+np.series()
+B
+np.make_array()
+C
+np.array()   ✔️
+D
+np.series_array()
+
+===================================================
+Which of the following is the best description of a Pandas Series index?
+
+A mandatory integer position starting from 0
+
+A separate DataFrame attached to the Series
+
+A set of labels (default or custom) used to identify each element in the Series ✔️
+
+A random ID automatically generated for each value
+
+===================================================
+Which of the following methods can you use to select a specific column in a Pandas DataFrame?
+
+df.iloc['column_name']
+
+df['column_name']     ✔️
+
+df.select('column_name')
+===================================================
+What does df.loc[2, 'Age'] return when df is a DataFrame?
+
+Value at index 2 in the 'Age' column
+
+Value at row 2 and column 'Age' ✔️
+
+Value at index 2 in the DataFrame
+
+Value at row 2 and column index 2
+
+
+
+
+===================================================
+Which method would you use to select rows where the value in the 'Age' column is greater than 30?
+A  df[df['Age'] > 30]   
+B df.select_rows('Age' > 30)
+C df.query('Age > 30')
+D  Both a and c  ✔️
+======================================================
+Which of the following is the correct way to filter rows where the 'Salary' is greater than 50000?
+A  df[df['Salary'] > 50000]
+B  df.query('Salary > 50000')
+C  df.filter('Salary > 50000')
+D  Both A and B ✔️
+==================================================
+What is the difference between df.query() and df.loc[] for filtering?
+A df.query() is faster than df.loc[] for large datasets
+B df.loc[] can be used for more complex conditions
+C df.query() can only filter based on column names
+D Both a and b   ✔️ 
+=====================================================
+NOTE:
+1. The.loc[] function is used for label-based indexing. It allows us to access rows and columns by their labels. Unlike the indexing operator, it can select subsets of rows and columns simultaneously which offers flexibility in data retrieval.
+
+
+2. Selecting Specific Rows and Columns:
+   Syntax: Dataframe.loc[["row1", "row2"], ["column1", "column2", "column3"]]
+
+3. Selecting All Rows and Specific Columns:
+   Syntax: Dataframe.loc[:, ["column1", "column2", "column3"]]
+4.head(): Returns the first n rows of a DataFrame
+# default 5 first rows
+5.tail(): Returns the last n rows of a DataFrame
+# by default 5 last rows
+
+6. .at[]: Access a single value for a row/column label pair
+
+7..query(): Query the DataFrame using a boolean expression
+8.DataFrame.pop():Return item and drop from DataFrame.
+DataFrame.xs():Return a cross-section (row(s) or column(s)) from the DataFrame.
+DataFrame.get() :Get item from object for given key (e.g DataFrame column).
+DataFrame.isin() :Return a boolean DataFrame showing whether each element is contained in values.
+DataFrame.where():Return an object of the same shape with entries from self where cond is True otherwise from other.
+DataFrame.mask():Return an object of the same shape with entries from self where cond is False otherwise from other.
+DataFrame.insert():Insert a column into DataFrame at a specified location.
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
