@@ -1,0 +1,3 @@
+Flipkart,usedforshooping,www.flipkart.org
+Google,a web search engine,www.google.com
+Uber,ride handalling company,www.uber.com
