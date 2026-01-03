@@ -1,0 +1,31 @@
+Pandas dataframe.drop_duplicates():
+===================================
+The drop_duplicates() method in Pandas is designed to remove duplicate rows from a DataFrame based on all columns or specific ones. By default, it scans the entire DataFrame and retains the first occurrence of each row and removes any duplicates that follow.
+=======================================================Using to_numeric() function:
+The to_numeric() function is used to convert an argument to a numeric data type. In this way, we will see how we can fix mixed data types using to_numeric() function.
+
+Syntax:
+data_frame[column] = data_frame[column].apply(lambda x: pd.to_numeric(x, errors = 'ignore'))
+
+
+
+Here,
+data_frame: It is the Pandas data frame for which you want to fix mixed data types.
+column: It defines all the columns of the Pandas data frame.
+=======================================================Pandas dataframe.corr() is used to find the pairwise correlation of all columns in the Pandas Dataframe in Python. Any NaN values are automatically excluded. To ignore any non-numeric values, use the parameter numeric_only = True. In this article, we will learn about DataFrame.corr() method in Python.
+
+Pandas DataFrame corr() Method Syntax
+Syntax: DataFrame.corr(self, method='pearson', min_periods=1, numeric_only = False)
+
+Parameters:
+
+method:
+pearson: standard correlation coefficient
+kendall: Kendall Tau correlation coefficient
+spearman: Spearman rank correlation
+min_periods: Minimum number of observations required per pair of columns to have a valid result. Currently only available for pearson and spearman correlation
+numeric_only: Whether only the numeric values are to be operated upon or not. It is set to False by default.
+Returns: count :y : DataFrame
+
+Pandas Data Correlations corr() Method
+A good correlation depends on the use, but it is safe to say you have at least 0.6 (or -0.6) to call it a good correlation. A simple example to show how correlation work in Python.
