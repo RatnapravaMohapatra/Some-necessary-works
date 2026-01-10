@@ -1,0 +1,79 @@
+EDA : 5 manipulation
+to extract max information  out of your data.
+========================
+1.create variable for difference in date ,time and address.
+2.Create a new ratio  and proportions
+3.Apply standard transformation
+4.Include effect of influencer
+5.check variable and crete model for right period
+========================
+Predictive model:
+1.Variable identification:
+
+Identify Predictor(Input) and Target(output) variables. Next identify the data type and category of variable.
+UNIVARIENT ANALYSIS:
+=======================
+
+Continuous Variable: Statistics visualisation methos below 
+Central tendency:
+mean, mode ,median,min,max
+Mesure of Dispersion:
+Range, Quartile,IQR,varince,standard deviation,skewness and kurtois
+Visualization metod:
+histogram , box plot
+
+
+Categorical variables:
+we use frequency table to understand category.it can be measured using 2 metrics, count and count%.
+=====================
+Bivariate analysis:
+categorical vs categorical,
+categorical an continuous,
+continuous and continuous(scatter plot)
+-1: perfect -ve linear correlation
++1: perfect +ve linea
+0: No correlation
+
+correlation: Covariance(x,y)/
+SQRT(Var(x)*Var(Y))
+Good +ve relation between X and Y --->0.65
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
