@@ -37,26 +37,95 @@ continuous and continuous(scatter plot)
 correlation: Covariance(x,y)/
 SQRT(Var(x)*Var(Y))
 Good +ve relation between X and Y --->0.65
+============================================================================================================================================
+EDA:
+
+raw --- missing values
+--> from row data to  clean data is called Data cleaning
+--->Eda(father and mother of ml)
+===================================
+EDA Techniques:
+1.Variable identification
+==========================
+Family= Dad , Mom, Son , daughter
+Dependent variable = Dad(Y)
+y- dependent variable
+
+mom , son, daughter= independent variable (X1,X2,X3)
+Y = X1+X2+X3 ....+Xn(multilinear regression)
+
+IN ML ---(3 part)
+1.Regression --> Dv is continuous
+ex : Petrol price, Gold price, House price, electricity, vehicle price.
+Algorithm used
+=================
+a. Simple linear regression
+b. Multilinear regression
+c. polynomial regression
+d. gradient descent , stochastic gradient descent, batch gradient descent
+e. Lasso regression (l1 regression)
+f. Ridge regression(l2 regression)
+g. k - nearest neighbour regression
+h. Decision tree regression
+i. Random forest regression
+j. Time series 
+-================================
+2.Classification -> dv is binary
+example:
+profit|lose ,hit|flop,hot|cold,win|loose,yes|no,cat|dog,+ve|-ve,spam|non spam,detect|not detect
+project -> sentiment analysis,+ve and -ve review, cat and dog
+Algorithm
+======== 
+1. logistic  
+2. support vector machine
+3.Knn classifier
+4.Naive Bayes
+5.decission tree
+6.random forest
+7.Xgboost
+8.lgbm (it mostly used for comapny)
+9. Artificial neaural network
+10. Ensamble learning
+=================================
+3.Cluster(No dependent variable)
+->PCA (dimension reduction)
+->k-means clustering
+->Hierarchical clustering
+-> DB scan
+attribute==column=== variable
+
+suppose u work irrelevant attribute
+Your  model overfit and multicollinearity. 
+2.Univariate analysis
+plot the graph using 1 variable
+
+3.bivariate analysis
+plot the graph using 2 variable
+correlation: relation between 2 variable.
++ve correlation-> range(0-1)
+-ve correlation -> range(-1 to 0)
+-> no correlation -> 0
+4.Outlier treatment
+datapoint is very far from other observation.
+How to detect outlier - graph, interquartile range , z-score
+5.Missing value treatment
+How to handle missing value treatment?
+missing value numerical :
+mean, mode , median
+if its category:
+mode,k-nearest neighbour (k=1)
+6.variable transformation
+imputation technique also called as transformer , categorical data to numerical 
+-> dummy variable, label encoder, one hot encoder
+-> eda transformer , ml transformer ,nlp transformer, gen ai transformer
+
+high bias -> underfitting
+high variance-> overfitting
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+7.Variable creation
 
 
 
