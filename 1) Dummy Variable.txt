@@ -1,0 +1,86 @@
+1) Dummy Variable
+
+A dummy variable is a way to represent categories using 0 and 1.
+It tells the model whether a category is present or not.
+
+Example:
+Color = [Red, Blue, Green]
+
+Dummy variables:
+
+Is_Red → 1 if Red, else 0
+
+Is_Blue → 1 if Blue, else 0
+
+Is_Green → 1 if Green, else 0
+
+So dummy variables are basically binary columns for categories.
+
+2) Label Encoder
+
+A Label Encoder converts each category into a unique integer.
+
+Example:
+Color = [Red, Blue, Green]
+
+After Label Encoding:
+
+Blue → 0
+
+Green → 1
+
+Red → 2
+
+It’s simple and compact — but the model may think “2 > 1 > 0”, which can create a false order when categories don’t have ranking.
+
+Used when:
+
+Categories have natural order (like Low, Medium, High)
+
+Or for target labels in classification
+
+3) One-Hot Encoder
+
+A One-Hot Encoder converts categories into dummy variables automatically.
+
+Example:
+Color = [Red, Blue, Green]
+
+One-Hot Encoded:
+
+Red	Blue	Green
+1	0	0
+0	1	0
+0	0	1
+
+No false ranking — perfect for machine learning models.
+=======================================================
+
+
+
+
+1.variable identification
+2.univariate analysis
+3.Bivariate analysis
+4.Outlier detection
+5.Missing value treatment
+6.Variable imputation
+7.Variable creation
+Them ML part
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
