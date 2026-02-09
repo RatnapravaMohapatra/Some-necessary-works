@@ -1,0 +1,47 @@
+Correlation vs regression:
+It tells us how two things are related.
+  X             Y
+study hours    Marks
+1               40
+2               50
+3               60
+4               70
+5               80
+6                ?
+
+ y bar = 60
+
+
+
+
+
+m = change y/ change in x 
+
+
+
+r = +1
+ regression  ->  prediction 
+
+If I know X, can I estimate Y?
+
+ Y = mx +c
+ x =study hours , Y = mark
+ 6 =x 
+ Y = mx +c
+ m =10 , c= 30
+Y = (10*6) + 30 = 60+30 =90
+
+
+ c = ybar - mxbar
+   = 60 - (10*3)
+   = 60 - 30=30
+
+
+regression is actually full of ML algorithm.
+ Linear regression, logistic regression , polynomial regression
+
+
+
+
+
+

@@ -1,0 +1,27 @@
+Function is a reusable block of code that performs a specific task.
+
+ define the function and call function
+ def -> keyword to define function
+SYNTAX:
+def function_name(parameter):
+    return value 
+2 type of function:
+1. Built in function
+2.User Define function:
+4  categories:(Paremeter and rturn)
+a. No parameter , No return
+
+ratna(b):
+ a=1        # pass by value 
+ratna(a)
+
+
+
+
+
+
+
+
+
+
+
